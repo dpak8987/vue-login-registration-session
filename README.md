@@ -1,4 +1,4 @@
-# dpak-crud
+# vue-login-registration-session
 
 > A simple vuejs,Bootstrap4 application for login and registration using vue-router and vue-session. Used Backendless REST API with axios.
 
