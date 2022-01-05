@@ -1,0 +1,99 @@
+body {
+    background-color: #f9f9fa
+}
+
+.flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+@media screen and (max-width:991.98px) {
+    .padding {
+        padding: 1.5rem
+    }
+}
+
+@media screen and (max-width:861.98px) {
+    .padding {
+        padding: 1rem
+    }
+}
+
+.alert-dismissible {
+    width: 60%;
+}
+
+.card {
+    background: #fff;
+    border-width: 0;
+    border-radius: .25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .05);
+    margin-bottom: 1.5rem
+}
+
+.card-header {
+    background-color: transparent;
+    border-color: rgba(160, 175, 185, .15);
+    background-clip: padding-box
+}
+
+.card-body p:last-child {
+    margin-bottom: 0
+}
+
+.card-hide-body .card-body {
+    display: none
+}
+
+.form-check-input.is-invalid~.form-check-label,
+.was-validated .form-check-input:invalid~.form-check-label {
+    color: #f54394
+}
+.center {
+margin: auto;
+width: 60%;
+padding: 10px;
+}
+@media screen and (max-width:767.98px) {
+    .center {
+        width : 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    .form-group {
+        margin-bottom: 0.5rem;
+    }
+    .center {
+        width: 100%;
+    }
+}
+@media screen and (min-width:992px) {
+    .center {
+        width: 100%;
+    }
+}
+@media screen and (min-width:1200px) {
+    .center {
+        width: 70%;
+    }
+}
+label.required::before {
+    content: '*';
+    margin-right: 4px;
+    color: #ff0000 !important;
+}
+.signup-link {
+    font-weight: 700;
+    text-decoration: none;
+}
+.required-text {
+    color: #ff0000 !important;
+}
+.form-control::placeholder {
+    color: #C9CCD5;
+}
+.btn-primary:disabled {
+    background-color: #bbdefb;
+    border-color: #bbdefb;
+}
