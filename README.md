@@ -7,6 +7,8 @@
 1. Download or clone the code
 2. Goto the code path in terminal and run npm install
 3. Once done, execute npm run dev
+4. For API, please refer https://backendless.com/
+
 ``` bash
 # install dependencies
 npm install
